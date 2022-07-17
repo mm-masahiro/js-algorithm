@@ -1,10 +1,10 @@
 const insert = (array: number[], insertValue: number, insertIndex: number): number[] => {
-	const tempArray = [];
+	const tempArray: number[] = [];
 	for (let i = 0; i < array.length; i++) {
 		if (i !== insertIndex) {
-			tempArray[i] = array[i];
+			tempArray.push(array[i])
 		} else {
-			tempArray[i] = insertValue;
+			tempArray.push(insertValue);
 		}
 	};
 	return tempArray;

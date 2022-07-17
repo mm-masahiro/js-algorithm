@@ -2,10 +2,10 @@ var insert = function (array, insertValue, insertIndex) {
     var tempArray = [];
     for (var i = 0; i < array.length; i++) {
         if (i !== insertIndex) {
-            tempArray[i] = array[i];
+            tempArray.push(array[i]);
         }
         else {
-            tempArray[i] = insertValue;
+            tempArray.push(insertValue);
         }
     }
     ;
