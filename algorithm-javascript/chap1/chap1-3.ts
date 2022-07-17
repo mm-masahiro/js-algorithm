@@ -12,4 +12,3 @@ let scores1_3 = [90, 70, 50, 80, 60, 85];
 scores1_3 = remove(scores1_3, 4);
 
 console.log(scores1_3);
-
